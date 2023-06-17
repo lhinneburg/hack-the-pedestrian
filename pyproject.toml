@@ -16,6 +16,10 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  "pyrcrack>=1.2.6",
+  "asyncio>=3.4.3",
+]
 
 [project.urls]
 "Homepage" = "https://smartcity.jena.de/smart-city-projekt/hack-paradise"
