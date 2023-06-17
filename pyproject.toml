@@ -17,8 +17,7 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dependencies = [
-  "pyrcrack>=1.2.6",
-  "asyncio>=3.4.3",
+  "rich>=13.4.2"
 ]
 
 [project.urls]
