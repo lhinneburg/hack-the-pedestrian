@@ -11,7 +11,7 @@ async def scan_for_devices():
     async with airmon(interfaces[0]) as mon:
         async with pyrcrack.AirodumpNg() as pdump:
             async for result in pdump(mon.monitor_interface):
-                print(result.table)
+                await print(result)
                 await asyncio.sleep(2)
 
 
