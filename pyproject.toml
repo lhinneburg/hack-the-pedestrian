@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hack_the_pedestrian"
+version = "0.0.1"
+authors = [
+  { name="Lars Hinneburg", email="lars.hinneburg@spleenlab.ai" },
+]
+description = "Count pedestrians!"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://smartcity.jena.de/smart-city-projekt/hack-paradise"
+"Bug Tracker" = "https://github.com/lhinneburg/hack-the-pedestrian/issues"
